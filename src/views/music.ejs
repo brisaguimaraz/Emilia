@@ -1,37 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emilia | Music</title>
-    <script src="https://kit.fontawesome.com/e4646141a1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
+    <%- include('partials/head') %>
 <body class="music">
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/music">music</a></li>
-                <li><a href="/contact">contact</a></li>
-            </ul>
-        </nav>
-        <nav>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-spotify"></i></a>
-            <a href=""><i class="fa-brands fa-apple"></i></a>
-            <a href=""><i class="fa-brands fa-amazon"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-        </nav>
-
-    </header>
+    <%- include('partials/header-music') %>
     <main>
         <h1> MUSIC // </h1>
         <nav>
-            <h4>Direct Links</h4>
+            <h4>Direct links</h4>
              <ul>
                  <li><a href="#album">Album</a></li>
                  <li><a href="#organic">Video: Organic Love</a></li>
@@ -51,20 +26,22 @@
             </section>
             <section id="organic">
                 <h2> video <br> organic love</h2>
-                <iframe src="https://vimeo.com/135166028" width="640" height="360" allow="autoplay"></iframe>
+                <iframe src="https://player.vimeo.com/video/135166028?h=fdb0646ae5" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                 <p>Directed by VINCE MALC & EMILIA COLE</p>
                 <p>Edited and Filmed by NICOLAS TROY</p>
                 <p>Produced by NIKI HEART,</p>
                 <p>Wix Films LTD.</p>
+                <a href="#">Go top</a>
             </section>
             <section id="street">
                 <h2> video <br> street light</h2>
-                <iframe src="https://vimeo.com/134861419" width="640" height="360" allow="autoplay"></iframe>
+                <iframe src="https://player.vimeo.com/video/134861419?h=24e3183108" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                 <p>Directed by VINCE MALC & EMILIA COLE</p>
                 <p>Edited and Filmed by NICOLAS TROY</p>
                 <p>Produced by NIKI HEART,</p>
                 <p>Wix Films LTD.</p>
-        </section>
+                <a href="#">Go top</a>
+            </section>
     </main>
 </body>
 </html>

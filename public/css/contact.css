@@ -1,0 +1,21 @@
+.contact h2 {
+    text-transform: uppercase;
+    font: var(--tipografiaEmilia);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.contact h3 {
+    color : var(--colorVerde);
+    font-weight: 400;
+}
+
+.contact b {
+    font-weight: 600;
+    font-family: var(--tipografiaGeneral); 
+}
+
+.dataInfo {
+    font-weight: 400;
+    font-family: var(--tipografiaGeneral);
+}

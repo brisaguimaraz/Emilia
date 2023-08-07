@@ -1,0 +1,45 @@
+
+.music header nav ul {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.music nav h4{
+    font-weight: 600;
+}
+
+.music main nav ul {
+    margin-left: 50px;
+}
+
+.music main a {
+    color: grey;
+}
+
+#organic h2, #street h2{ 
+   text-transform: uppercase;
+   font-family: var(--tipografiaTitulos);
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 30px;
+   margin-top: 100px;
+}
+
+#organic p, #street p{ 
+    font-family: var(--tipografiaGeneral);
+    line-height: 10px;
+    font-size: 13px;
+}
+
+#album ol li {
+    line-height: 40px;
+}
+
+#album h2 {
+    font-family: var(--tipografiaTitulos);
+    margin-top: 100px;
+}
+
+
+
+
+
